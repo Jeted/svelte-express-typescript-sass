@@ -1,0 +1,10 @@
+*.DS_Store
+
+*node_modules/
+*dist/
+
+.history
+.prettierrc.json
+package-lock.json
+yarn.lock
+

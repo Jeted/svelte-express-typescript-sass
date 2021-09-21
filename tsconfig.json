@@ -1,0 +1,17 @@
+{
+  "include": ["**/*", "node_modules"],
+  "exclude": ["node_modules/*"],
+  "compilerOptions": {
+    "target": "ESNEXT",
+    "module": "ES2020",
+    "outDir": "dist",
+    "rootDir": ".",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node"
+  }
+}
